@@ -22,6 +22,7 @@ namespace Magic8Ball
         {
             Random randGen = new Random();
             int answers = randGen.Next(1, 21);
+
             switch (answers)
             {
                 case 1:

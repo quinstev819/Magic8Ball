@@ -50,13 +50,17 @@
             this.button.BackgroundImage = global::Magic8Ball.Properties.Resources.clickBall;
             this.button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button.FlatAppearance.BorderSize = 0;
+            this.button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button.ForeColor = System.Drawing.Color.Transparent;
             this.button.Location = new System.Drawing.Point(28, 43);
             this.button.Margin = new System.Windows.Forms.Padding(0);
             this.button.Name = "button";
             this.button.Size = new System.Drawing.Size(315, 275);
             this.button.TabIndex = 0;
             this.button.UseVisualStyleBackColor = false;
+            this.button.Click += new System.EventHandler(this.Button_Click);
             // 
             // outputLabel
             // 
